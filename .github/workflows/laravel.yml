@@ -42,9 +42,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Setup Node.js
       uses: actions/setup-node@v2-beta
-
       with:
-        node-version: '12'
+        node-version: '20'
         check-latest: true
     - name: Install NPM dependencies
       run: npm install
